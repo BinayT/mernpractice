@@ -1,6 +1,7 @@
 import React from "react";
 import { FormGroup, Form, Input, Label, ButtonToggle } from "reactstrap";
 import axios from "axios";
+import EditUser from "./edit-delete-user.component";
 
 export default class CreateUser extends React.Component {
   constructor(props) {
@@ -42,10 +43,12 @@ export default class CreateUser extends React.Component {
             />
             <br />
             <ButtonToggle type="submit" color="info">
-              Send
+              Add User
             </ButtonToggle>
           </FormGroup>
         </Form>
+        <br />
+        <EditUser />
       </div>
     );
   }
