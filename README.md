@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made with the help of [MERN FCC](https://www.youtube.com/watch?v=7CqJlxBYj-M&t=2041s).
+It has all the good stuffs that the video taught me, and i added bit more features and made a better folder structure following MVC architecture.
 
 ## Available Scripts
 
